@@ -30,4 +30,6 @@ fs.unlink('data2.txt', (error)=>{
     if(error) throw error;
     console.log('eliminado');
 });*/
-
+//pipe method function reads data from a readable stream as it becomes
+//available and writes it to a destination writable stream.
+fs.createReadStream('data.txt').pipe(fs.createWriteStream('data3.txt'));
