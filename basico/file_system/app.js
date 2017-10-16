@@ -12,8 +12,8 @@ console.log('iniciado');
 });*/
 
 //sincrono
-let data = fs.readFileSync('data.txt', 'utf-8');
-console.log(data);
+//let data = fs.readFileSync('data.txt', 'utf-8');
+//console.log(data);
 
 console.log('finalizado');
 
@@ -32,4 +32,16 @@ fs.unlink('data2.txt', (error)=>{
 });*/
 //pipe method function reads data from a readable stream as it becomes
 //available and writes it to a destination writable stream.
-fs.createReadStream('data.txt').pipe(fs.createWriteStream('data3.txt'));
+//fs.createReadStream('data.txt').pipe(fs.createWriteStream('data3.txt'));
+
+//sincrono
+/*fs.readdir('./../../basico', (error, files) => {
+    files.forEach(file => {
+        console.log(file);
+    });
+});*/
+
+//asincrono
+fs.readdirSync('./../../basico').forEach(file => {
+    console.log(file);
+});

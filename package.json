@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-tutos",
+  "version": "1.0.0",
+  "description": "Aprendiendo NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBarboza/nodejs-tutos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidBarboza/nodejs-tutos/issues"
+  },
+  "homepage": "https://github.com/DavidBarboza/nodejs-tutos#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
