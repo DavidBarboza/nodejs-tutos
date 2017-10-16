@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DavidBarboza/nodejs-tutos#readme",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "yargs": "^9.0.1"
   }
 }
